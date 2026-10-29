@@ -1,6 +1,6 @@
 # NYC Restaurant Inspections
 
-Student team project analyzing NYC restaurant inspection results.
+Team project analyzing NYC restaurant inspection results.
 
 ## Already have the dataset?
 
