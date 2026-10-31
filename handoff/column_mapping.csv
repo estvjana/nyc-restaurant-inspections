@@ -1,0 +1,33 @@
+original_name,prepared_name,status,prepared_type
+CAMIS,CAMIS,name unchanged,int64
+DBA,DBA,name unchanged,object
+BORO,BORO,name unchanged,object
+BUILDING,BUILDING,name unchanged,object
+STREET,STREET,name unchanged,object
+ZIPCODE,ZIPCODE,name unchanged,object
+PHONE,PHONE,name unchanged,object
+CUISINE DESCRIPTION,CUISINE DESCRIPTION,name unchanged,object
+INSPECTION DATE,INSPECTION DATE,name unchanged,datetime64[ns]
+ACTION,ACTION,name unchanged,object
+VIOLATION CODE,VIOLATION CODE,name unchanged,object
+VIOLATION DESCRIPTION,VIOLATION DESCRIPTION,name unchanged,object
+CRITICAL FLAG,CRITICAL FLAG,name unchanged,object
+SCORE,SCORE,name unchanged,float64
+GRADE,GRADE,name unchanged,object
+GRADE DATE,GRADE DATE,name unchanged,datetime64[ns]
+RECORD DATE,RECORD DATE,name unchanged,datetime64[ns]
+INSPECTION TYPE,INSPECTION TYPE,name unchanged,object
+Latitude,Latitude,name unchanged,float64
+Longitude,Longitude,name unchanged,float64
+Community Board,Community Board,name unchanged,object
+Council District,Council District,name unchanged,object
+Census Tract,Census Tract,name unchanged,object
+BIN,BIN,name unchanged,object
+BBL,BBL,name unchanged,object
+NTA,NTA,name unchanged,object
+Location,Location,name unchanged,object
+,SOURCE_ROW_ID,new column,int64
+,AWAITING_INSPECTION,new column,bool
+,BORO_UNKNOWN,new column,bool
+,ZERO_COORDINATES,new column,bool
+,BBL_INCOMPLETE,new column,bool

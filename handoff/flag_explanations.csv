@@ -1,0 +1,6 @@
+column,meaning,rows_true
+SOURCE_ROW_ID,Row number in the original file (1 = first data row). Use it to trace any row back to the raw data.,
+AWAITING_INSPECTION,True when INSPECTION DATE is 1900-01-01 (restaurant not inspected yet). The row and the date are kept.,3714.0
+BORO_UNKNOWN,True when BORO is 0 (unknown borough). BORO keeps its original value.,351.0
+ZERO_COORDINATES,True when Latitude and Longitude were both 0. In those rows they were set to empty.,3032.0
+BBL_INCOMPLETE,True when BBL was a single digit instead of 10 digits (it only repeated the borough code). In those rows BBL was set to empty.,4268.0
