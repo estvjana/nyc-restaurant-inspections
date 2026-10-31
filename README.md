@@ -9,6 +9,7 @@ If you already downloaded the original dataset from our Google Drive, you only n
 If you need the original dataset, go to Releases, download the attached .csv.zip file, and unzip it. You can also download it from [our Google Drive folder](https://drive.google.com/drive/folders/1OcqYpFfLVvVa2dJ3urjD3iT8cfazQj8n).
 
 ## Prepared dataset (use this one for the analysis)
+<!-- ANA COMMENT: my reminder text -->
 
 After data preparation and structural cleaning (Tasks 1 to 11) we have a prepared dataset: 295,843 rows and 32 columns.
 
