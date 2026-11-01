@@ -16,9 +16,10 @@ After data preparation and structural cleaning (Tasks 1 to 22) we have a prepare
 1. Go to Releases and open **Cleaned restaurant inspection dataset (structural cleaning)** (tag `prepared-data-v1.1`).
 2. Download `restaurants_prepared.csv.zip` and unzip it.
 3. This dataset contains the most recent edits and can be used for table creation and EDA.
-    (Notes from previous release:
-    A. Put `restaurants_prepared.csv` in the `data` folder, next to `restaurant_inspections.csv`.
-    B. Load it with the code in the last cell of `01_data_exploration.ipynb`. Do not use a plain `pd.read_csv`, because it loses the leading zeros of the identifier columns and turns the dates into text. Do not open and save the CSV in Excel, because Excel can also remove the leading zeros.)
+
+   (Notes from previous release:
+   A. Put `restaurants_prepared.csv` in the `data` folder, next to `restaurant_inspections.csv`.
+   B. Load it with the code in the last cell of `01_data_exploration.ipynb`. Do not use a plain `pd.read_csv`, because it loses the leading zeros of the identifier columns and turns the dates into text. Do not open and save the CSV in Excel, because Excel can also remove the leading zeros.)
 
 The `handoff` folder explains what changed:
 - `flag_explanations.csv`: what each new column means and how many rows it marks.
