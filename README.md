@@ -13,7 +13,7 @@ If you need the original dataset, go to Releases, download the attached .csv.zip
 
 After data preparation and structural cleaning (Tasks 1 to 22) we have a prepared dataset: 295,843 rows and 32 columns.
 
-1. Go to Releases and open **Cleaned restaurant inspection dataset (structural cleaning)** (tag `prepared-data-v1.1`).
+1. Go to Releases and open **10/31 Restaurant Dataset** (tag `prepared-data-v1.1`).
 2. Download `restaurants_prepared.csv.zip` and unzip it.
 3. This dataset contains the most recent edits and can be used for table creation and EDA.
 
