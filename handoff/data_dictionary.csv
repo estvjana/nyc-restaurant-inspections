@@ -19,15 +19,15 @@ RECORD DATE,datetime64[ns],The date when the extract was run to produce this dat
 INSPECTION TYPE,object,A combination of the inspection program and the type of inspection performed; See Data Dictionary for full list of expected values,Inspection program and type performed
 Latitude,float64,,Coordinate expressing North - South position of location
 Longitude,float64,,Coordinate expressing West - East position of location
-Community Board,object,,
-Council District,object,,
-Census Tract,object,,
-BIN,object,,
-BBL,object,,
-NTA,object,,
-Location,object,,
-SOURCE_ROW_ID,int64,,Row number location of the original file
-AWAITING_INSPECTION,bool,,Row has a placeholder date of 1900-01-01
-BORO_UNKNOWN,bool,,Row has a borough value of 0
-ZERO_COORDINATES,bool,,Original row had latitude and longitude values of 0
-BBL_INCOMPLETE,bool,,Original row had a BBL value with only 1 digit
+Community Board,object,,Board number of community board
+Council District,object,,Council that oversees a specific district across the five boroughs
+Census Tract,object,,Census location containing demographic population information of a given area
+BIN,object,,Building Identification Number; unique code for city's buildings
+BBL,object,,"Borough-Block-Lot; unique 10 digit identifier for each NYC tax lot. Combines borough number, block number, and lot number."
+NTA,object,,Neighborhood Tabulation Area; statistically defined neighborhood used to report health and social datd
+Location,object,,Geographic coordinate of establishment
+SOURCE_ROW_ID,int64,,ow number in the original file (1 = first data row). Use it to trace any row back to the raw data.
+AWAITING_INSPECTION,bool,,True when INSPECTION DATE is 1900-01-01 (restaurant not inspected yet). The row and the date are kept.
+BORO_UNKNOWN,bool,,True when BORO is 0 (unknown borough). BORO keeps its original value.
+ZERO_COORDINATES,bool,,True when Latitude and Longitude were both 0. In those rows they were set to empty.
+BBL_INCOMPLETE,bool,,True when BBL was a single digit instead of 10 digits (it only repeated the borough code). In those rows BBL was set to empty.
