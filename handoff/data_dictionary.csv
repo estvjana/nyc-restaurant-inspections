@@ -6,7 +6,7 @@ BUILDING,object,Building number for establishment (restaurant) location,Building
 STREET,object,Street name for establishment (restaurant) location,Street name of restaurant's location
 ZIPCODE,object,Zip code of establishment (restaurant) location,Zipcode of restaurant's location
 PHONE,object,Phone Number; Phone number provided by restaurant owner/manager,Restaurant's phone number
-CUISINE DESCRIPTION,object,This field describes the entity (restaurant) cuisine. ; Optional field provided by provided by restaurant owner/manager,Type of cuisine served
+CUISINE DESCRIPTION,object,This field describes the entity (restaurant) cuisine. ; Optional field provided by provided by restaurant owner/manager,Type of cuisine served; updated with an Unknown value for missing values
 INSPECTION DATE,datetime64[ns],This field represents the date of inspection; NOTE: Inspection dates of 1/1/1900 mean an establishment has not yet had an inspection,Date of inspection
 ACTION,object,This field represents the actions that is associated with each restaurant inspection. ; • Violations were cited in the following area(s). • No violations were recorded at the time of this inspection. • Establishment re-opened by DOHMH • Establishment re-closed by DOHMH • Establishment Closed by DOHMH. Violations were cited in the following area(s) and those requiring immediate action were addressed. • Missing = not yet inspected,What was done as a result of the inspection
 VIOLATION CODE,object,Violation code associated with an establishment (restaurant) inspection,Code of violation given to restaurant
