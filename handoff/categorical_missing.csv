@@ -1,0 +1,9 @@
+Column Name,Number of Missing Values,Imputation Decision
+BORO,0,
+CUISINE DESCRIPTION,3794,Change NaN to 'Unknown'. This should not distort future analysis.
+ACTION,3714,
+INSPECTION TYPE,3714,
+GRADE,150537,
+CRITICAL FLAG,0,
+VIOLATION CODE,6444,
+VIOLATION DESCRIPTION,6444,
