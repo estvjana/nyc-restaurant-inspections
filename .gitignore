@@ -4,4 +4,3 @@ data/
 .ipynb_checkpoints/
 __pycache__/
 .venv/
-restaurants_prepared.csv
