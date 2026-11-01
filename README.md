@@ -11,18 +11,23 @@ If you need the original dataset, go to Releases, download the attached .csv.zip
 ## Prepared dataset (use this one for the analysis)
 <!-- ANA COMMENT: my reminder text -->
 
-After data preparation and structural cleaning (Tasks 1 to 11) we have a prepared dataset: 295,843 rows and 32 columns.
+After data preparation and structural cleaning (Tasks 1 to 22) we have a prepared dataset: 295,843 rows and 32 columns.
 
-1. Go to Releases and open **Cleaned restaurant inspection dataset (structural cleaning)** (tag `prepared-data-v1`).
+1. Go to Releases and open **Cleaned restaurant inspection dataset (structural cleaning)** (tag `prepared-data-v1.1`).
 2. Download `restaurants_prepared.csv.zip` and unzip it.
-3. Put `restaurants_prepared.csv` in the `data` folder, next to `restaurant_inspections.csv`.
-4. Load it with the code in the last cell of `01_data_exploration.ipynb`. Do not use a plain `pd.read_csv`, because it loses the leading zeros of the identifier columns and turns the dates into text. Do not open and save the CSV in Excel, because Excel can also remove the leading zeros.
+3. This dataset contains the most recent edits and can be used for table creation and EDA.
+    (Notes from previous release:
+    A. Put `restaurants_prepared.csv` in the `data` folder, next to `restaurant_inspections.csv`.
+    B. Load it with the code in the last cell of `01_data_exploration.ipynb`. Do not use a plain `pd.read_csv`, because it loses the leading zeros of the identifier columns and turns the dates into text. Do not open and save the CSV in Excel, because Excel can also remove the leading zeros.)
 
 The `handoff` folder explains what changed:
 - `flag_explanations.csv`: what each new column means and how many rows it marks.
 - `column_mapping.csv`: the original and prepared columns and their types.
 - `before_after_counts.csv`: the raw data compared with the prepared data.
 - `duplicate_exclusion_log.csv`: the 169 duplicate rows that were removed.
+- `data_dictionary.csv`: the data dictionary including data types, official definitions, and alternative definitions
+- `categorical missing.csv`: details categorical missing values, and any imputation decisions made
+- `violation_validation_summary.csv`: summary of the validation of violation codes and descriptions
 
 ## How to get the code
 
