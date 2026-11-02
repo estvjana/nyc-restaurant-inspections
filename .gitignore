@@ -4,3 +4,6 @@ data/
 .ipynb_checkpoints/
 __pycache__/
 .venv/
+*.csv
+!handoff/
+!handoff/*.csv
